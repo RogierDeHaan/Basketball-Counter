@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'digital';
+  src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;         
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 20px 0 10px;
+}
+
+.container {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    text-align: center;
+    background: #1B244A;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+#score-home, #score-guest {
+    width: 155px;
+    height: 120px;
+    margin: 0 auto;
+    background: #080001;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "digital";       
+    font-size: 80px;    
+    border-radius: 5px;    
+}
+
+button {
+    font-family: "digital";
+    background: #1B244A;
+    color: #9AABD8;    
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;     
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+.btn-wrapper {
+    margin: 20px;
+}
+
+#new-game {    
+    font-weight: bold;
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.click {
+    animation-duration: .11s;
+    animation-name: click;
+}
+
+@keyframes click {
+    from {
+        padding: 5px 10px;        
+        }
+    to {
+        padding: 4px 9px;        
+    }
+}
+
+.highlight {
+    border: 2px solid #F94F6D;
+}
+
+.blackborder {
+    border: 2px solid #080001;
+}
